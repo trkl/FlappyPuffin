@@ -42,8 +42,12 @@ Game.gameComponents = [
     weight={20}
     controller={true}
   />,
-  <PipePool position={new Vector([40, 0])} />
-  // <Floor position={new Vector([0, 80])} dimensions={new Vector([100, 20])} />
+  <PipePool position={new Vector([40, 0])} />,
+  <Floor
+    name="Floor"
+    position={new Vector([0, 77])}
+    dimensions={new Vector([100, 20])}
+  />
 ];
 
 export default Game;

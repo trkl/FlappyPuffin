@@ -29,11 +29,11 @@ class Bird extends GameComponent {
     />,
     <CollisionZone
       offset={new Vector([0, 0])}
-      dimensions={new Vector([3.1, 7.1])}
+      dimensions={new Vector([3.7, 7.6])}
     />,
     <Sprite
       position={new Vector([5, 30])}
-      scale={0.1}
+      scale={0.13}
       width={1674}
       height={620}
       n={3}

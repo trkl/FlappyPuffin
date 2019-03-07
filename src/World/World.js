@@ -9,7 +9,7 @@ import EventManager from "../EventManager/EventManager";
 import Camera from "./../Camera/Camera";
 import WorldContextProvider from "./Context/WorldContextProvider";
 
-import Game from "./../Resources/Games/SheepRunner/Game";
+import Game from "./../Resources/Games/FlappyBird/Game";
 
 Array.prototype.filterInPlace = function(predicate) {
   for (let i = 0; i < this.length; ++i) {
